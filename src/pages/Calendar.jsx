@@ -1,8 +1,10 @@
+import AppLayout from "../components/layout/AppLayout";
+
 function Calendar() {
   return (
-    <div>
+    <AppLayout>
       <h1>Calendar</h1>
-    </div>
+    </AppLayout>
   );
 }
 

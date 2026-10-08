@@ -11,20 +11,46 @@ import StickyWall from "./pages/StickyWall";
 function App() {
   return (
     <BrowserRouter>
+
       <Routes>
 
-        {/* Public Pages */}
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route
+          path="/"
+          element={<Home />}
+        />
 
-        {/* Application Pages */}
-        <Route path="/app" element={<Today />} />
-        <Route path="/upcoming" element={<Upcoming />} />
-        <Route path="/calendar" element={<Calendar />} />
-        <Route path="/sticky-wall" element={<StickyWall />} />
+        <Route
+          path="/login"
+          element={<Login />}
+        />
+
+        <Route
+          path="/signup"
+          element={<Signup />}
+        />
+
+        <Route
+          path="/app"
+          element={<Today />}
+        />
+
+        <Route
+          path="/upcoming"
+          element={<Upcoming />}
+        />
+
+        <Route
+          path="/calendar"
+          element={<Calendar />}
+        />
+
+        <Route
+          path="/sticky-wall"
+          element={<StickyWall />}
+        />
 
       </Routes>
+
     </BrowserRouter>
   );
 }

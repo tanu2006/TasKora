@@ -1,8 +1,10 @@
+import AppLayout from "../components/layout/AppLayout";
+
 function Upcoming() {
   return (
-    <div>
+    <AppLayout>
       <h1>Upcoming</h1>
-    </div>
+    </AppLayout>
   );
 }
 

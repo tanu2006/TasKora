@@ -1,8 +1,10 @@
+import AppLayout from "../components/layout/AppLayout";
+
 function StickyWall() {
   return (
-    <div>
+    <AppLayout>
       <h1>Sticky Wall</h1>
-    </div>
+    </AppLayout>
   );
 }
 
